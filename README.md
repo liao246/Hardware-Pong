@@ -2,6 +2,9 @@
 
 A custom hardware implementation of the classic game Pong, designed from the ground up to operate within a strict **1,000 standard cell limit**. This project spans the entire hardware design lifecycle—from high-level game mechanics and micro-architectural specifications, through FPGA prototyping, all the way to RTL-to-GDSII physical design and tapeout.
 
+### 🎥 Hardware Demo
+[**▶️ Click here to watch the hardware demonstration video!**](https://drive.google.com/file/d/1E-pfy0bkPHHN0QkF6T-8-YknGKoXxZRo/view?usp=sharing)
+
 ## 🚀 Key Features
 - **Custom Game Engine:** RTL-based game physics supporting dynamic mechanics and collision-based speed scaling.
 - **Combinational VGA Rendering:** Optimized, coordinate-based VGA rendering designed specifically to minimize standard cell usage.
