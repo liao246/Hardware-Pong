@@ -25,6 +25,22 @@ This project was architected by a 3-person team, focusing heavily on resource op
 3. **FPGA Prototyping:** Deployed the design onto an iCE40 FPGA to fine-tune game feel, paddle speeds, and collision behaviors in real-time.
 4. **Physical Design (Tapeout):** Processed the verified RTL through the OpenLane flow, generating the final GDSII layout for fabrication.
 
+## 📊 RTL Diagrams
+
+Below are the architectural RTL diagrams detailing the structure of the system and its core components:
+
+### Top-Level Architecture
+![Top Level RTL](diagrams/top_level.png)
+
+### Game Logic RTL
+![Game Logic RTL](diagrams/game_logic.png)
+
+### VGA RTL
+![VGA RTL](diagrams/vga.png)
+
+### Pixel Generator RTL
+![Pixel Generator RTL](diagrams/pixel_gen.png)
+
 ## 📁 Module Overview
 
 The system is broken down into several highly-optimized modules:
